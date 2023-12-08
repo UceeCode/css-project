@@ -125,6 +125,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, auto);
   }
+  article h2, p{
+    margin-bottom: 20px;
+  }
  
   article footer{
     margin-top: var(--lg);
