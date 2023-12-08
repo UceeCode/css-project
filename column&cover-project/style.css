@@ -136,5 +136,9 @@
   .article-img-wrapper{
     grid-row: 2/3;
   }
+
+  @media (min-width: 600px){
+    
+  }
   
 
