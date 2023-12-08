@@ -1,4 +1,4 @@
-/* No CSS to write in this step! Below is the CSS you wrote for the styleguide. */
+
 
 @layer base {
     :root {
@@ -109,3 +109,28 @@
       background-position: 0 90%;
     }
   }
+
+  :root{
+    --scale: 1.15;
+  }
+  .fancy-text{
+    font-size: var(--lg);
+    line-height: 1.2;
+  }
+  article{
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+  .article-img-wrapper{
+    grid-row: 2/3;
+  }
+  article footer{
+    margin-top: var(--lg);
+    font-size: var(--small);
+  }
+  
+
