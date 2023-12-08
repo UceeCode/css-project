@@ -185,6 +185,16 @@
      }
   }
   @media(min-width: 1000px) {
-
+    article{
+      display: block;
+    }
+    .main-text{
+      columns: 3;
+    }
+    .article-img-wrapper{
+      max-width: 100%;
+      height: 500px;
+      margin: 3rem 0 0 0;
+    }
   }
 
