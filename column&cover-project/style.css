@@ -123,14 +123,15 @@
     margin: 0px auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-rows: repeat(6, auto);
   }
-  .article-img-wrapper{
-    grid-row: 2/3;
-  }
+ 
   article footer{
     margin-top: var(--lg);
     font-size: var(--small);
+  }
+  .article-img-wrapper{
+    grid-row: 2/3;
   }
   
 
