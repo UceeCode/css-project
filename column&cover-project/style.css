@@ -167,9 +167,24 @@
   }
 
   @media(min-width: 800px) {
+     .fancy-text{
+      font-size: var(--xl);
+     }
+     article{
+      grid-template-columns:  2fr 1fr;
+     }
+     .article-img-wrapper{
+      margin: .5rem 0 0 2rem;
+     }
+     .main-text{
+      columns: 2;
 
+     }
+     .main-text p{
+      margin-top: 0;
+     }
   }
   @media(min-width: 1000px) {
-    
+
   }
 
